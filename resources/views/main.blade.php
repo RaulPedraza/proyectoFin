@@ -6,7 +6,7 @@
             <p class="lead">Aqui tienes una lista de los platos que preparamos</p>
         </div>
     </div>
-    @if($user == 2)
+    @if($user == 1)
         <div class="container mt-3">
             <a href="/nuevoPlato" id="nuevoPlato" class="btn btn-outline-primary btn-lg btn-block mb-5">Añadir plato</a>
         </div>
@@ -20,7 +20,7 @@
                     <h5 class="card-title">{{$plato->nombre}}</h5>
                     <p class="card-text">{{$plato->desc_pequeña}}</p>
                     <a href="/{{ $plato->id }}" id="mas" class="btn btn-lg btn-block btn-outline-primary">+ Mas</a>
-                    @if($user == 2)
+                    @if($user == 1)
                         <a href="/{{ $plato->id }}/borrar" class="btn btn-lg btn-block btn-outline-danger">- Eliminar</a>
                     @endif
                 </div>

@@ -4,7 +4,6 @@
         <div class="row">
             <div class=" offset-3 col-6 d-flex justify-content-between">
                 <h2>Nuevo Plato</h2>
-                <a class="btn btn-primary btn-lg" href="/" role="button">Volver</a>
             </div>
 
         </div>
@@ -36,7 +35,7 @@
                     <label for="Imagen">Imagen</label>
                     <input type="file" class="form-control" id="imagen" name="imagen">
                 </div>
-                    <input type="submit" value="Añadir" class="btn btn-lg btn-primary">
+                    <input type="submit" value="Añadir" id="bAñadir" class="btn btn-lg btn-primary">
             </form>
         </div>
     </div>

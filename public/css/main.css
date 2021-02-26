@@ -6,7 +6,7 @@
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #81005d;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -29,7 +29,7 @@
     color: black;
 }
 
-#bLogout:hover, #bLogin:hover, #bLogin2, #bRegister, #pedir, #pedir2, #nuevoPlato:hover{
+#bLogout:hover, #bLogin:hover, #bLogin2, #bRegister, #pedir, #pedir2, #nuevoPlato:hover, #bAñadir{
     background-color: #81005d;
     border-color: #81005d;
     color: white;

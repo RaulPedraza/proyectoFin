@@ -1,6 +1,6 @@
 function nuevoPedido(){
     let form = document.getElementById("form")
-    let botonPedir = document.getElementById("bPedir")
+    let botonPedir = document.getElementById("pedir2")
     botonPedir.setAttribute("Style", "display: none;")
 
     //Campo Direccion
@@ -62,6 +62,7 @@ function nuevoPedido(){
     inputPedir.setAttribute("type","submit")
     inputPedir.setAttribute("value","Pedir")
     inputPedir.setAttribute("class","btn btn-primary btn-lg btn-block")
+    inputPedir.setAttribute("style", "background-color: #81005d; border-color: #81005d; color: white;")
 
     form.appendChild(divDireccion)
     form.appendChild(divPiso)

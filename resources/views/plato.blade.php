@@ -35,7 +35,7 @@
     @if($user == "")
         <a href="/login" id="pedir" class="btn btn-primary btn-lg btn-block mb-5">Pedir</a>
     @else
-        <a href="#" id="pedir2" class="btn btn-primary btn-lg btn-block mb-5" id="bPedir" onclick="nuevoPedido()">Pedir</a>
+        <a href="#" id="pedir2" class="btn btn-primary btn-lg btn-block mb-5" onclick="nuevoPedido()">Pedir</a>
     @endif
 
 @endsection

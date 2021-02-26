@@ -20,7 +20,7 @@
                             <td>{{ $pedido->piso }}</td>
                             <td>{{ $pedido->puerta }}</td>
                             @foreach($platos as $plato)
-                                @if($plato->id == $pedido->id)
+                                @if($plato->id == $pedido->plato_id)
                                     <td>{{ $plato->nombre }}</td>
                                 @endif
                             @endforeach

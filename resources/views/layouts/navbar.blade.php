@@ -12,12 +12,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">Inicio</a>
                 </li>
-                @if($user == 2)
+                @if($user == 1)
                     <li class="nav-item">
                         <a class="nav-link" href="/pedidos">Pedidos</a>
                     </li>
                 @endif
-                @if($user != 2 && $user != "")
+                @if($user != 1 && $user != "")
                     <li class="nav-item">
                         <a class="nav-link" href="/pedidosUser">Mis Pedidos</a>
                     </li>
